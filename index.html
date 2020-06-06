@@ -20,23 +20,42 @@
 </head>
 
 <body>
-
+  
   <div class="container-fluid color-gray ">
 
     <div class="sidebar">
       <ul class="sidebar-links">
-        <li class="sidebar-list-item"><p class="nav-control" data-section="home" href="">Home</p></li>
-        <li class="sidebar-list-item"><p class="nav-control" data-section="snakes" href="">Snakes</p></li>
-        <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Rescue Map</p></li>
-        <!-- <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Snake-Rescuers</p></li> -->
-        <!-- <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Forest</p></li> -->
-
+        <li class="sidebar-list-item">
+        <div class="item">
+          <img src="./assets/sidebar/svg/005-location.svg" alt="" srcset="">
+          <p class="nav-control" data-section="home" href="">Home</p>
+        </div>  
+        </li>
+        <li class="sidebar-list-item">
+  
+          <div class="item">
+            <img src="./assets/sidebar/svg/006-snake.svg" alt="" srcset="">
+  
+            <p class="nav-control" data-section="snakes" href="">Snakes</p>
+          </div>
+  
+        </li>
+        <li class="sidebar-list-item">
+          <div class="item">
+            <img src="./assets/sidebar/svg/007-location-1.svg" alt="" srcset="">
+            <p class="nav-control" data-section="maps" href="">Rescue Map</p>
+  
+          </div>
+        </li>
+       
+  
       </ul>
     </div>
     <div class="main-content">
       <div id="home">
-        This is a home page
-        <p>ചുരുട്ട </p>
+        <div class="home-page">
+          
+        </div>
       </div>
       <!-- Snakes -->
       <!-- Snakes  starts -->
@@ -111,7 +130,7 @@
       <!-- testing sections -->
 
       
-
+      <!-- tTest -->
      
       <!--Main Container Ends -->
     </div>
@@ -145,6 +164,7 @@
   </script>
   <script src="./static/js/geoLocation.js"></script>
   <script src="./static/js/latlang.js"></script>
+  <script src="./static//js/geojsons.js"></script>
   <script src="./static//js/scripts.js"></script>
   <script src="./static/js//snakes.js"></script>
   <script src="./static/js/rendersnakes.js"></script>

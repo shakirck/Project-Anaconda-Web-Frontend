@@ -30,6 +30,13 @@ var hospitalIcon = L.icon({
     popupAnchor: [0, -16],
     
 });
+var RescuerIcon = L.icon({
+    iconUrl: 'assets/icons8-telephone-48.png',
+    iconSize: [48, 48],
+    iconAnchor: [24,24],
+    popupAnchor: [0, -16],
+    
+});
 
 
 var myCurrentLocation = L.icon({
@@ -72,7 +79,7 @@ var circle = L.circle([initialLoadPosition.Lat, initialLoadPosition.Lng], {
 }).addTo(mymap);
 
 
-L.marker([initialLoadPosition.Lat, initialLoadPosition.Lng],{icon:myCurrentLocation}).addTo(mymap).bindPopup("You are Here").openPopup();
+L.marker([initialLoadPosition.Lat, initialLoadPosition.Lng],{icon:myCurrentLocation}).addTo(mymap).bindPopup("You are Here");
 
 }
  
@@ -121,31 +128,64 @@ function addMarker(){
         }
      }
 
-
-  
+    
+     
 }
+ 
+function createCustomIcon (feature, latlng) {
+    let RescuerIcon = L.icon({
+      iconUrl: 'assets/icons8-telephone-48.png',
+    //   shadowUrl: 'my-icon.png',
+      iconSize:     [36, 36], // width and height of the image in pixels
+    //   shadowSize:   [35, 20], // width, height of optional shadow image
+      iconAnchor:   [18, 18], // point of the icon which will correspond to marker's location
+    //   shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
+      popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    })
+    return L.marker(latlng, { icon: RescuerIcon })
+  }
+  let RescuerLayerOption = {
+      pointToLayer:createCustomIcon
+  }
 
-
-function addHospitalMarkers(){
-
-}
-addHospitalMarkers();
 
 setInitialPosition(10.8505,76.2711);
 loadMap(initialLoadPosition);
 addMarker();
-// addMarker(9.99,76.65);
-// addMarker(9.99,76.15);
-// addMarker(9.99,76.35);
-
-
-
-// 
+loadRescuerMarker();
+ 
 
 
 
 
+//Load Snake Rescuer
 
+function loadRescuerMarker(){
+    // L.geoJSON(snakeRescuer,RescuerLayerOption).addTo(mymap);
+    
+      var RescuerIcon = L.icon({
+        iconUrl: 'assets/icons8-telephone-48.png',
+        iconSize: [30, 30],
+        iconAnchor: [15,15],
+        popupAnchor: [0, -16],
+        
+    });
+        
+      L.geoJSON(snakeRescuer, {
+        pointToLayer: function (feature, latlng) {
+            var mypopup = L.popup().setContent(`
+           <div class="rescuer-marker"> 
+           <p> ${feature.properties.name}</p>
+           <p>${feature.properties.contact}</p>
+           </div>
+            `);
+            var mymarker = L.marker(latlng, {icon:RescuerIcon});
+      
+            mymarker.bindPopup(mypopup);
+            return mymarker;               
+        }
+      }).addTo(mymap);
+}
 
 var allSections;
 var currentSection;

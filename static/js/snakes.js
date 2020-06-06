@@ -42,7 +42,7 @@ var snakesJSON = {
     // {
     // "name":                 ,
     // "malayalam":            ,
-    // "url":
+    // "url":                   ,
     // "distribution":      ,
     // "description":          ,
     // "states"
@@ -72,6 +72,21 @@ var snakesJSON = {
     "distribution":  "Found in whole of Indian mainland including North and North-east states. Not found in Islands. "    ,
     "description":  `Head pointed with smooth scales, broader than neck. Olive brown on upper and overall yellowish including underside and neck. Upper lip marked with blackish edge on their posterior edge.Body slender with pointed and highly keeled scales. Brownish back with continuous black bands which fuse to form blackish-brown posterior body. Two yellow-brown stripes run longitudinally from neck to end of the tail where they become prominent; these lines become very faint yellow when intersect with blackish bands. Interscale color blue in population of most of the parts of country (called forma typica variety) while individuals from South India, Maharastra and some parts of North-east specimens bear red interscale color (called erythrostictus variety). These blue and red color appears clearly on provoking the snake.Ventral glossy white with reddish or grayish ting on side near dorsals; blackish dots may or may not be present on each side of ventrals.`        ,
     "states": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Chandigarh, Delhi, Puducherry, Daman and Diu, "
+
+    },
+    {
+    "name":      "Rat Snake"           ,
+    "malayalam":      "ചേര "      ,
+    "url":"http://13.126.210.153/u/b5795c2d-dd6b-4535-ba72-3b90003940a4.jpg",
+    "distribution": " All over the India including North-east and Andaman Islands"    ,
+    "description":`One of the most commonly found snake across India. Body covered with smooth scales. Head is pointed, borader than neck. Eyes are large with round pupil.
+
+
+    Blackish color border present on upper lip and underside scales. Large eyes with rounded pupil. Body slender with smooth and keeled scales (mostly on posterior side). Color yellow, yellow-brown, blackish, greenish-grey etc. with fine black, yellow and white band like patterns throughout which become net like on posterior body.
+    
+    
+    Underside color pale yellow. Belly or white mixed with green, brown, grey etc. Long and slender tail typically like other arboreal snakes with a pointed tip. Blackish reticulations present on the whole posterior body.`          ,
+    "states":"Andhra Pradesh, Bihar, Chhattisgarh, Assam, Arunachal Pradesh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Sikkim, Uttar Pradesh, Uttarakhand, West Bengal, Daman and Diu, Dadra and Nagar Haveli, Delhi, Mizoram, Nagaland, Chandigarh, Puducherry, "
 
     }
 ]
