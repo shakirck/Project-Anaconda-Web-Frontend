@@ -50,21 +50,14 @@ body{
 
 }
 
+.snakes-list{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* snakes */
-
- .snakes-show-container{
-     /* display: flex !important; */
-     flex-wrap: wrap;
- }
- .snake-card{
-     margin-right: 10px;
- }
- .snake-container{
-     display: flex;
- }
- 
-
+.snake-item{
+    /* padding: 10px; */
+}
  /* Hospital */
  #map {
      height: 95vh;

@@ -27,18 +27,18 @@
       <ul class="sidebar-links">
         <li class="sidebar-list-item"><p class="nav-control" data-section="home" href="">Home</p></li>
         <li class="sidebar-list-item"><p class="nav-control" data-section="snakes" href="">Snakes</p></li>
-        <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Hospitals</p></li>
-        <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Snake-Rescuers</p></li>
-        <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Forest</p></li>
+        <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Rescue Map</p></li>
+        <!-- <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Snake-Rescuers</p></li> -->
+        <!-- <li class="sidebar-list-item"><p class="nav-control" data-section="maps" href="">Forest</p></li> -->
 
       </ul>
     </div>
     <div class="main-content">
       <div id="home">
         This is a home page
+        <p>ചുരുട്ട </p>
       </div>
       <!-- Snakes -->
-
       <!-- Snakes  starts -->
       <div id="snakes">
 
@@ -65,37 +65,11 @@
 
 
 
-            <div class="snake-container">
-              <!-- Card Starts  -->
-              <div class="card snake-card" style="width: 18rem;">
-                <img src="http://13.126.210.153/u/88b1a909-be0b-41a7-8384-05ec07d9fa55.jpg" class="card-img-top"
-                  alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">spectacled cobra (Naja naja)</h5>
-                  <p class="card-text">Commonly found across the Indian Subcontinent except most of the north-east, far
-                    north in Kashmir and Indian Islands. </p>
-                  <div class="btns">
-                    <div class="btn-danger btn">Highly Venomous</div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Card Ends -->
-              <!-- Card Starts  -->
-              <div class="card snake-card" style="width: 18rem;">
-                <img src="http://13.126.210.153/u/88b1a909-be0b-41a7-8384-05ec07d9fa55.jpg" class="card-img-top"
-                  alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">spectacled cobra (Naja naja)</h5>
-                  <p class="card-text">Commonly found across the Indian Subcontinent except most of the north-east, far
-                    north in Kashmir and Indian Islands. </p>
-                  <div class="btns">
-                    <div class="btn-danger btn">Highly Venomous</div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Card Ends -->
+            <div class="snake-container" >
+              <ul class="snakes-list" id="venom-snakes">
+                 <!-- Will be filled at runtime -->
+              </ul>
+              
             </div>
 
 
@@ -109,37 +83,12 @@
 
 
 
-            <div class="snake-container">
-              <!-- Card Starts  -->
-              <div class="card snake-card" style="width: 18rem;">
-                <img src="http://13.126.210.153/u/88b1a909-be0b-41a7-8384-05ec07d9fa55.jpg" class="card-img-top"
-                  alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">spectacled cobra (Naja naja)</h5>
-                  <p class="card-text">Commonly found across the Indian Subcontinent except most of the north-east, far
-                    north in Kashmir and Indian Islands. </p>
-                  <div class="btns">
-                    <div class="btn-success btn">Non Venomous</div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Card Ends -->
-              <!-- Card Starts  -->
-              <div class="card snake-card" style="width: 18rem;">
-                <img src="http://13.126.210.153/u/88b1a909-be0b-41a7-8384-05ec07d9fa55.jpg" class="card-img-top"
-                  alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">spectacled cobra (Naja naja)</h5>
-                  <p class="card-text">Commonly found across the Indian Subcontinent except most of the north-east, far
-                    north in Kashmir and Indian Islands. </p>
-                  <div class="btns">
-                    <div class="btn-success btn">Non Venomous</div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Card Ends -->
+            <div class="snake-container" >
+              <ul  class="snakes-list" id="non-venom-snakes">
+               <!-- will be filled at runtime -->
+              
+            
+              </ul>
             </div>
 
           </div>
@@ -197,6 +146,8 @@
   <script src="./static/js/geoLocation.js"></script>
   <script src="./static/js/latlang.js"></script>
   <script src="./static//js/scripts.js"></script>
+  <script src="./static/js//snakes.js"></script>
+  <script src="./static/js/rendersnakes.js"></script>
 </body>
 
 </html>
