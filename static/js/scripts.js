@@ -163,4 +163,10 @@ function clickEvents(e){
     }
    console.log(e);
 }
+
+allSections =  document.querySelectorAll('.nav-control');
+for(sec of allSections){
+    document.getElementById(sec.dataset.section).classList.add('hide');
+}
+document.getElementById('home').classList.remove('hide');
 document.addEventListener('click',clickEvents);

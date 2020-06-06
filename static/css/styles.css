@@ -67,7 +67,7 @@ body{
 
  /* Hospital */
  #map {
-     height: 400px;
+     height: 100vh;
      /* width: 500px; */
  }
  .pop-ups{
@@ -108,3 +108,4 @@ body{
     .hide{
         display: none;
     }
+    
