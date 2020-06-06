@@ -72,8 +72,7 @@ body{
 }
 .sidebar-list-item :hover{
     background-color:#385F71;
-    width: 100%;
-}
+ }
 .sidebar-list-item a{
     color: #F5F0F6;
     text-decoration: none;
@@ -173,6 +172,6 @@ body{
         overflow-y: scroll;
     }
     .sidebar-links{
-        flex-direction: row;
+        flex-direction: row!important;
     }
     } 
