@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(248, 248, 248);
+    
+}
+.color-gray{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 30%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color:#2B4162;
+}
+.sidebar .sidebar-links{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.sidebar-list-item{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.sidebar-list-item :hover{
+    background-color:#385F71;
+}
+.sidebar-list-item a{
+    color: #F5F0F6;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* main content sections */
+
+.main-content{
+    width: 100%;
+
+}
+
+
+/* snakes */
+
+ .snakes-show-container{
+     /* display: flex !important; */
+     flex-wrap: wrap;
+ }
+ .snake-card{
+     margin-right: 10px;
+ }
+ .snake-container{
+     display: flex;
+ }
+ 
+
+ /* Hospital */
+ #map {
+     height: 400px;
+     /* width: 500px; */
+ }
+ .pop-ups{
+     width: 200px;
+     height: 230px;
+     /* line-height: 0px; */
+  }
+ .flex-row{
+     display: flex;
+     font-weight: 800;
+     margin-bottom: -25px;
+ }
+ .image-container{
+     max-height: 200px;
+
+    
+ }
+ .image-container img{
+     max-width: 50%;
+ }
+ .pop-up-content-icon{
+     width: 20px;
+     min-width: 20px;
+     margin-right: 5px;
+     
+ }
+
+
+ .nav-control{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+ 
+    .hide{
+        display: none;
+    }
