@@ -11,7 +11,29 @@ body{
     background-position: center;
     background-size: cover;
     overflow-y: hidden;
+    width:100%
   
+}
+ .overlay{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(10, 8, 8);
+     opacity: .8;
+ }
+.homepage-data{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+ }
+.homepage-welcome{
+    font-size: 3.5rem;
+}
+.team-members{
+    display: flex;
+    
 }
 .color-gray{
     display: flex;
@@ -173,5 +195,16 @@ body{
     }
     .sidebar-links{
         flex-direction: row!important;
+    }
+    .homepage-data{
+        text-align: center;
+        flex-direction: column;
+    
+    }
+    .team-members{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     } 
