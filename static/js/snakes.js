@@ -108,30 +108,48 @@ var snakesJSON = {
 
     {
     "name":'Banded Racer'                 ,
-    "malayalam": ""           ,
-    "url":        ""           ,
-    "distribution":""      ,
-    "description":  ""        ,
-    "states":""
+    "malayalam": "-"           ,
+    "url":        "http://13.126.210.153/u/2349b56e-f579-4937-b7ff-b8b0469bd176.jpg"           ,
+    "distribution":"Found in whole of peninsular India from central-eastern Gujarat to as east as South Bengal (Kolkata, West Bengal) while as north as Uttrakhand. Not found in hills of Western Ghats, Thar desert, north-east region after West Bengal and Indian Islands. Also found in Nepal, Pakistan and Sri Lanka. "      ,
+    "description":  "Head with pointed and prominently tapered snout; broader than neck. Patternless in adults while patched with white, black and brown. Large eyes have rounded pupil. Body long, slender and covered with subequal smooth scales. Two very distinct forms found in life- Juveniles bear rich white bands guarded by black over reddish-brown or greyish-brown dorsal surface while adults have reddish-brown or brown dorsal with faint white bands or can even be entirely patternless. Ventral color white or yellowish-white in adults, greenish-white in juveniles."        ,
+    "states":"Andhra Pradesh, Bihar, Chhattisgarh, Gujarat, Jharkhand, Karnataka, Madhya Pradesh, Maharashtra, Odisha, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Daman and Diu, Puducherry, "
 
     },
     {
         "name": 'Common Trinket'                 ,
-        "malayalam": ""           ,
-        "url":        ""           ,
-        "distribution":""      ,
-        "description":  ""        ,
-        "states":""
+        "malayalam": "കാട്ടുപാമ്പ് "           ,
+        "url":        "http://13.126.210.153/u/3201270d-e26e-4232-b3aa-073fb42fbb3f.jpg"           ,
+        "distribution":"All over the country, also found in few north-east states from West Bengal to Assam. It is not found in most of Western Ghats where other population Montane Trinket is found commonly. "      ,
+        "description":  "Active by day and night. In summers this species is found in termite mounds, rock piles and crevices. Duringf cooler months, it may be seen on leafy trees and bushes. Often seen near, or in human habitation. Prefers rats, mice, and squirrels but also eats lizards, frogs and snakes. Lays 6-12 eggs. When excited, coils forebody into a series of near vertical S-shaped loops and opens in mouth"        ,
+        "states":" Maharashtra, Andhra Pradesh, Bihar, Chhattisgarh, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Chandigarh, Daman and Diu, Delhi, Puducherry, 
     
         },{
             "name": 'Green Tree Vine'                 ,
-            "malayalam": ""           ,
-            "url":        ""           ,
-            "distribution":""      ,
-            "description":  ""        ,
+            "malayalam": "പച്ചില പാമ്പ് "           ,
+            "url":        "https://i.pinimg.com/originals/aa/8b/2f/aa8b2f389782837bdc25207424e0a2b4.jpg"           ,
+            "distribution":"Found in low bushes, shrubs and trees in lowland forest terrain at elevations up to about 1000 metres, particularly near streams and often found near human settlements. "      ,
+            "description":  "The green vine snake is diurnal and mildly venomous. This arboreal snake normally feeds on frogs and lizards using its binocular vision to hunt. They are slow moving, relying on camouflaging as a vine in foliage. The snake expands its body when disturbed to show a black and white scale marking. Also, they may open their mouth in threat display and point their head in the direction of the perceived threat. They are the only species of snake with horizontal pupils, compared to the normal vertical slit pupils found in many species of viper."        ,
             "states":""
         
             },
+            {
+                "name": 'Checkered Keelback'                 ,
+                "malayalam": "നീര്‍ക്കോലി"           ,
+                "url":        "http://13.126.210.153/u/23b2e85e-0b0e-4ba3-bc12-7ba2a95ac549.jpg"           ,
+                "distribution":"Found in all over the Indian mainland including north-east states. "      ,
+                "description":  "Head anteriorly pointed and broader than neck. Color glossy olive green or brownish mostly. Two black streaks starts from eyes and end to the posterior of lip, the color of area between these streaks is usually lighter than rest of head part. Inner of parietal scales have two closely places yellow-black patches. Moderate eyes bear rounded pupil. Body stout with keeled scales on top and smoother on side. Ground color olive green or brown with dark color patches on whole dorsal surface which give it appearance like checkered. Some individuals bear reddish color. Overall this species is known for variation in patterns according to different geographical locations. Ventral body usually yellowish-white. Subcaudal scales can be darker than ventrals."        ,
+                "states":"All States"
+            
+                },
+                {
+                    "name": 'Common Sand Boa'                 ,
+                    "malayalam": ""           ,
+                    "url":        ""           ,
+                    "distribution":""      ,
+                    "description":  ""        ,
+                    "states":""
+                
+                    },
             {
                 "name": 'Indian Rock Python'                 ,
                 "malayalam": "പെരും പാമ്പ്"           ,
