@@ -1,5 +1,57 @@
+var ids={
+    'Banded Racer': 1,
+    'Checkered Keelback': 2,
+    'Common Krait': 3,
+    'Common Rat Snake': 4,
+    'Common Sand Boa': 5,
+    'Common Trinket': 6,
+    'Green Tree Vine': 7,
+    'Indian Rock Python': 8,
+    'King Cobra': 9,
+    'Monocled Cobra': 10,
+    "Russell's Viper": 11,
+    'Saw-scaled Viper': 12,
+    'Spectacled Cobra':13,
+ }
+
+
 var snakesJSON = {
-"venomous":[
+
+"venomous":[{
+        "name":`Russell's Viper`                 ,
+        "malayalam": "anali"           ,
+        "url":        "http://13.126.210.153/u/cb9630df-833d-4b5f-8ec5-b0cae34f651e.jpg"           ,
+        "distribution":" Found almost in whole Indian mainland except majority of northeast states (but reported from Assam), desert and Himalayas. "      ,
+        "description":  `Head triangular, pointed with small keeled scales; clearly broader than neck. Two triangular shaped spots of rounded edge present on the top. Moderate eyes have vertically elliptical pupil. Two very long fangs present in front side of mouth.
+
+        Body stout, robust and covered with highly keeled pointed and dry looking scales. Dorsal color light or dark grayish-brown, reddish or orange with continuous or discontinuous eye or almond like hollow or solid spots of dark brown or blackish color present in three longitudinal rows along the body.
+        
+        Belly white or light yellow with deep dark brown or blackish semi-circle spots on the edge of most of ventral scales. Tail rather small with pointed tip.`        ,
+        "states":" Maharashtra, Andhra Pradesh, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Daman and Diu, Delhi, Puducherry, "
+    
+        },
+        {
+            "name":'Common Krait'                 ,
+            "malayalam": ""           ,
+            "url":        ""           ,
+            "distribution":""      ,
+            "description":  ""        ,
+            "states":""
+        
+            },
+            {
+                "name":'Saw-scaled Viper'                 ,
+                "malayalam": "ചുരുട്ട മണ്ഡലി"           ,
+                "url":        "http://13.126.210.153/u/4b70f5c7-cd64-43b9-894b-4765878f257a.jpg"           ,
+                "distribution":"All across India, Except north-east from West Bengal, Indian Islands and far north in Jammu & Kashmir "      ,
+                "description":  `Head triangular with small keeled scale; clearly broader than neck. One Arrow or cruciform or somewhat plus shaped mark always exist on the top of the head. Large eyes with vertical pupil. Body short, robust, stout, and covered with highly keeled pointed scales. Body color ranges from light to dark brown, gray, brick red or reddish-brown. Light or off-white color spots found in whole dorsal surface; they are usually guarded and connected by two undulating lines from both sides. Ventral color white with dark brown or blackish spots.Tail very short with a pointed tip.
+
+
+                Found in dry and arid areas across India. Commonly found in parts of Rajasthan, Gujarat and Tamilnadu. They hide under stones, logs during the day and very active at night. Prey on small reptile and mice. Venom is hemo toxic and bites need immediate medical attention. It is one of the four snakes responsible for maximum snake bite deaths in India. Reports of them climbing trees and structures.`        ,
+                "states":" Andhra Pradesh, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, West Bengal, Chandigarh, Daman and Diu, Puducherry, Dadra and Nagar Haveli,"
+            
+                },
+                    
     {
         "name": "hump-nosed pit viper (Hypnale hypnale)"         ,
         "malayalam" : "ചുരുട്ട ",
@@ -12,7 +64,7 @@ var snakesJSON = {
     },
 
     {
-        "name":       "king cobra" ,
+        "name":       "King Cobra" ,
         "malayalam":       "രാജ  വെമ്പാല " ,
         "url":"http://13.126.210.153/u/d84b1f5c-c04f-4f33-9bc0-07841fd143cc.jpg",
         "distribution":     " Found in low to moderate elevation up to 2005m. ",
@@ -25,7 +77,7 @@ var snakesJSON = {
 
     
     {
-        "name": "spectacled cobra (Naja naja)"  ,
+        "name": "Spectacled Cobra"  ,
         "malayalam": "മൂർഖൻ " ,
         "url":"http://13.126.210.153/u/88b1a909-be0b-41a7-8384-05ec07d9fa55.jpg",
         "distribution":`Head triangular with rounded edge, not broader than neck. The famous hood mark appears when stretched on provocation. In dark color adult specimens from North India hood mark becomes faint or absent in adults. Eyes have rounded pupil.
@@ -50,6 +102,45 @@ var snakesJSON = {
     // }
 ],
 "nonVenomous":[
+
+
+    {
+    "name":'Banded Racer'                 ,
+    "malayalam": ""           ,
+    "url":        ""           ,
+    "distribution":""      ,
+    "description":  ""        ,
+    "states":""
+
+    },
+    {
+        "name": 'Common Trinket'                 ,
+        "malayalam": ""           ,
+        "url":        ""           ,
+        "distribution":""      ,
+        "description":  ""        ,
+        "states":""
+    
+        },{
+            "name": 'Green Tree Vine'                 ,
+            "malayalam": ""           ,
+            "url":        ""           ,
+            "distribution":""      ,
+            "description":  ""        ,
+            "states":""
+        
+            },
+            {
+                "name": 'Indian Rock Python'                 ,
+                "malayalam": ""           ,
+                "url":        ""           ,
+                "distribution":""      ,
+                "description":  ""        ,
+                "states":""
+            
+                },
+                    
+
    {
     "name":"travancore kukri snake"            ,
     "malayalam":  "കുക്രി പാമ്പ് | പൂച്ചക്കണ്ണൻ പാമ്പ് "          ,
@@ -75,7 +166,7 @@ var snakesJSON = {
 
     },
     {
-    "name":      "Rat Snake"           ,
+    "name":      "Common Rat Snake"           ,
     "malayalam":      "ചേര "      ,
     "url":"http://13.126.210.153/u/b5795c2d-dd6b-4535-ba72-3b90003940a4.jpg",
     "distribution": " All over the India including North-east and Andaman Islands"    ,
