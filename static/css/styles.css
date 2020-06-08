@@ -40,10 +40,11 @@ body{
     
     margin: 0;
     padding: 0;
+    height: 3000px;
 }
 .sidebar{
     width: 30%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
     background-color:#2B4162;
