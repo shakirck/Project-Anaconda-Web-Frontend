@@ -121,7 +121,7 @@ var snakesJSON = {
         "url":        "http://13.126.210.153/u/3201270d-e26e-4232-b3aa-073fb42fbb3f.jpg"           ,
         "distribution":"All over the country, also found in few north-east states from West Bengal to Assam. It is not found in most of Western Ghats where other population Montane Trinket is found commonly. "      ,
         "description":  "Active by day and night. In summers this species is found in termite mounds, rock piles and crevices. Duringf cooler months, it may be seen on leafy trees and bushes. Often seen near, or in human habitation. Prefers rats, mice, and squirrels but also eats lizards, frogs and snakes. Lays 6-12 eggs. When excited, coils forebody into a series of near vertical S-shaped loops and opens in mouth"        ,
-        "states":" Maharashtra, Andhra Pradesh, Bihar, Chhattisgarh, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Chandigarh, Daman and Diu, Delhi, Puducherry, 
+        "states":" Maharashtra, Andhra Pradesh, Bihar, Chhattisgarh, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Chandigarh, Daman and Diu, Delhi, Puducherry, "
     
         },{
             "name": 'Green Tree Vine'                 ,
@@ -129,7 +129,7 @@ var snakesJSON = {
             "url":        "https://i.pinimg.com/originals/aa/8b/2f/aa8b2f389782837bdc25207424e0a2b4.jpg"           ,
             "distribution":"Found in low bushes, shrubs and trees in lowland forest terrain at elevations up to about 1000 metres, particularly near streams and often found near human settlements. "      ,
             "description":  "The green vine snake is diurnal and mildly venomous. This arboreal snake normally feeds on frogs and lizards using its binocular vision to hunt. They are slow moving, relying on camouflaging as a vine in foliage. The snake expands its body when disturbed to show a black and white scale marking. Also, they may open their mouth in threat display and point their head in the direction of the perceived threat. They are the only species of snake with horizontal pupils, compared to the normal vertical slit pupils found in many species of viper."        ,
-            "states":""
+            "states":"All"
         
             },
             {
