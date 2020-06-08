@@ -32,11 +32,13 @@ var snakesJSON = {
         },
         {
             "name":'Common Krait'                 ,
-            "malayalam": ""           ,
-            "url":        ""           ,
-            "distribution":""      ,
-            "description":  ""        ,
-            "states":""
+            "malayalam": "വെള്ളിക്കെട്ടൻ"           ,
+            "url":        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bungarus_caerulus.jpg/220px-Bungarus_caerulus.jpg"           ,
+            "distribution":"All over the India including North-east states. Not found in Islands."      ,
+            "description":  `ഇന്ത്യയിൽ കാണപ്പെടുന്ന പാമ്പുകളിൽ (കരയിൽ) വിഷവീര്യം ഏറ്റവും കൂടിയ ഇനമാണ് ശംഖുവരയൻ അഥവാ common krait.Head depressed with rounded snout; slightly broader than neck. Upper lip brownish or yellowish and preocular scale often bear yellowish-white patch. Small eyes appear entirely black.
+
+            Dorsal body slender with glossy smooth scales. Body color jet black, purple or blue-black with fine white bands (paired or unpaired). Bands start from posterior of neck in the form of elongated white patch along vertebra and expands as true band on moving towards the mid-body. Belly milky white in juveniles and sub-adults, may turn yellowish-white in old adults. Tail short and bears prominent bands. `        ,
+            "states":"Madhya Pradesh, Goa, Bihar, Chhattisgarh, Kerala, Karnataka, Tamil Nadu, Andhra Pradesh, Telangana, Maharashtra, Gujarat, Odisha, Rajasthan, Punjab, West Bengal, Daman and Diu, Delhi, Puducherry, "
         
             },
             {
@@ -132,11 +134,13 @@ var snakesJSON = {
             },
             {
                 "name": 'Indian Rock Python'                 ,
-                "malayalam": ""           ,
-                "url":        ""           ,
-                "distribution":""      ,
-                "description":  ""        ,
-                "states":""
+                "malayalam": "പെരും പാമ്പ്"           ,
+                "url":        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Pratik_jain_dahod_python.JPG/220px-Pratik_jain_dahod_python.JPG"           ,
+                "distribution":"Found in most of the Indian mainland excluding north-east region after North-Bengal, also not found in Indian Islands. Its distribution may overlap with its sister species Burmese Python in North India."      ,
+                "description":  `New born- 40-45cm., average- 210-360cm (7ft-12), maximum- 750cm (25ft). Individuals above 540cm (18ft) are rare.
+
+                Head triangular, clearly broader than neck. Heat sensitive pits found laterally on snout. Color pinkish-brown in all life forms. Eyes with vertical pupil. Body thick with shiny smooth scales. Dorsal surface full of dark brown or greyish colorirregular blotches of ground colorwhite or off-white, light grey or brown. Ventral scales much narrower than typical snakes. Color whitish or yellow with dark colour patches mostly near the edge. Both sexes have “spur” (thorn like structure) on each side of anal; larger in males. Tail short, bears dark yellow and black reticulations.`        ,
+                "states":" Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Andhra Pradesh, Jammu and Kashmir, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Daman and Diu, Delhi, Puducherry, "
             
                 },
                     
