@@ -43,7 +43,7 @@ body{
 }
 .source-codes a:hover{
     filter: invert(100%)   ;
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
 
 }
 .github{
