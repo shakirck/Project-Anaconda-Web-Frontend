@@ -1,3 +1,4 @@
+console.log('Loaded speciesinfo');
 const queryString = window.location.search;
 console.log(queryString);
 var params = new URLSearchParams(queryString);

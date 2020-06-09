@@ -1,4 +1,5 @@
 //MAPP
+console.log('Loaded Scripts');
 var gooogleapi = 'AIzaSyBvx0Fowm0vrGqkZl-4lrEhoG5i3gAM4Xo'
 accessToken = 'pk.eyJ1Ijoic2hha2lyY2siLCJhIjoiY2tiMmNhOHhpMDk4MjJxcGhqdXc5cTZsMyJ9.lEdt0iifQJVwK_bTm9mMCw';
 var tileUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}'
@@ -71,15 +72,10 @@ L.tileLayer(tileUrl, {
 }).addTo(mymap);
 
 
-var circle = L.circle([initialLoadPosition.Lat, initialLoadPosition.Lng], {
-    color: 'none',
-    fillColor: 'blue',
-    fillOpacity: 0.2,
-    radius: 50000
-}).addTo(mymap);
 
 
-L.marker([initialLoadPosition.Lat, initialLoadPosition.Lng],{icon:myCurrentLocation}).addTo(mymap).bindPopup("You are Here");
+
+
 
 }
  
@@ -96,7 +92,7 @@ function addMarker(){
     for( district in hospitals){
         var Obj = hospitals[district];
         for(hospital of Obj){
-            console.log(hospital.latitude,hospital.longitude,hospital.imgUrl);
+            // console.log(hospital.latitude,hospital.longitude,hospital.imgUrl);
             let latitude = hospital.latitude;
             let longitude = hospital.longitude;
             // addMarker(latitude,longitude);
@@ -149,7 +145,10 @@ function createCustomIcon (feature, latlng) {
   }
 
 
-setInitialPosition(10.8505,76.2711);
+// setInitialPosition(10.8505,76.2711);
+var currentLat=initialLoadPosition.Lat;
+var currentLong = initialLoadPosition.Lng;
+setInitialPosition(currentLat ,currentLong)
 loadMap(initialLoadPosition);
 addMarker();
 loadRescuerMarker();
@@ -198,13 +197,14 @@ function clickEvents(e){
             document.getElementById(sec.dataset.section).classList.add('hide');
         }
         document.getElementById(currentSection).classList.remove('hide');
-        console.log(allSections);
+        // console.log(allSections);
 
     }
-   console.log(e);
+  //  console.log(e);
 }
 
 allSections =  document.querySelectorAll('.nav-control');
+
 for(sec of allSections){
     document.getElementById(sec.dataset.section).classList.add('hide');
 }

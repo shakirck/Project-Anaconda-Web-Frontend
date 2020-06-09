@@ -1,3 +1,4 @@
+console.log('Loaded GeoJson');
 var snakeRescuer = {
     "type": "FeatureCollection",
     "features": [

@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
-  
+  <!-- ANIMATE -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
   <!-- Custom CSS -->
+  
   <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="static/css/animation.css">
   <title>Snake Database</title>
 </head>
 
@@ -50,6 +53,22 @@
        
   
       </ul>
+
+      <div class="current-location" style="background-color: antiquewhite;">
+        <p>Your Location</p>
+        <p id="user-location" class="text-danger">
+          <div class="loader">
+            <div class="sk-chase">
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+            </div>
+          </div>
+        </p>
+      </div>
     </div>
     <div class="main-content">
       <div id="home">
@@ -154,7 +173,7 @@
   <!-- Optional JavaScript -->
 <!-- Mapbox map -->
 
- <div id="demo"></div>
+ <div id="demo" class="hide"></div>
 
 <!-- MAPBOX ENDS -->
   <!-- Leaflet MAP -->
@@ -175,12 +194,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="./static/js/geoLocation.js"></script>
+  <script src="./static/js/geojsons.js"></script>
   <script src="./static/js/latlang.js"></script>
-  <script src="./static//js/geojsons.js"></script>
-  <script src="./static//js/scripts.js"></script>
+  <script src="./static/js/scripts.js"></script>
   <script src="./static/js//snakes.js"></script>
   <script src="./static/js/rendersnakes.js"></script>
+  <script src="./static/js/geoLocation.js"></script>
+  <script src="./static/js/revereseGeoCoding.js"></script>
 </body>
 
 </html>

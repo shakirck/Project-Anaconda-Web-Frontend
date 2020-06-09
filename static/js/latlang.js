@@ -5,6 +5,7 @@
 // district hospital batheri  = 11.6625° N, 76.2574° E
 // general hospital = 11.6036° N, 76.0841° E
 // 11.2722° N, 75.8372° E kmc
+console.log('Loaded Latlang');
 var hospitals = {
     "wayanad":[
         {
@@ -176,8 +177,8 @@ var hospitals = {
         "address":"Vandanam Ambalaphuzha, NH 66, Vandanam, Kerala 688005"
         },
         {"name":"District Hospital Mavelikkara",
-        "latitude": 9.1524,
-        "longitude":76.335,
+        "latitude": 9.2506,
+        "longitude":76.5401,
         "imgUrl":"http://photos.wikimapia.org/p/00/03/38/96/05_75.jpg",
         "contact":" 0479 230 3394",
         "address":" Near mavelikara Pandalam Road, Thazhakkara, Mavelikara, Kerala 690102"

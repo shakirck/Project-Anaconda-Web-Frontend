@@ -1,3 +1,4 @@
+console.log('Loaded snakes');
 var ids={
     'Banded Racer': 1,
     'Checkered Keelback': 2,

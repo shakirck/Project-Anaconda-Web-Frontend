@@ -40,6 +40,10 @@ body{
     
     margin: 0;
     padding: 0;
+    height: 100vh;
+    
+}
+.height-adjustment{
     height: 3000px;
 }
 .sidebar{
@@ -47,8 +51,10 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color:#2B4162;
-   
+    /* background-color:#2B4162; */
+    background: rgb(2,0,36);
+    background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(41,187,214,1) 0%, rgba(116,53,197,1) 100%, rgba(40,180,157,1) 100%);
+    
   
 }
 
@@ -104,11 +110,29 @@ body{
 
 }
 
+ .current-location{
+    /* padding: 50px; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+    
+ }
+ 
+ .loader{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
 /* main content sections */
 
 .main-content{
     width: 100%;
-
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .snakes-list{
@@ -207,5 +231,18 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .home-page{
+        background-image: url('../../assets/background.jpg');
+        height: 100vh;
+        background-position: center;
+        background-size: contain;
+        overflow-y: hidden;
+        width:100%
+      
+    }
+    .current-location{
+        height: 150px;
+        padding: 10px;
     }
     } 

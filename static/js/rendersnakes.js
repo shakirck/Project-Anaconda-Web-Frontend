@@ -1,5 +1,5 @@
 //venomous snakes
-
+console.log('Loaded rendersnakes');
 var venomousContainer = document.getElementById('venom-snakes')
 var nonVenomousContainer = document.getElementById('non-venom-snakes')
 var venomousSnakes = snakesJSON.venomous;

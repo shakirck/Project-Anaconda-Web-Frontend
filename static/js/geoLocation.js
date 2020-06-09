@@ -1,3 +1,6 @@
+
+(function(){
+  console.log('loaded GeoLocation')
 var x = document.getElementById("demo");
 function getLocation() {
   if (navigator.geolocation) {
@@ -9,9 +12,12 @@ function getLocation() {
 
 function showPosition(position) {
   
-  // x.innerHTML = "Latitude: " + position.coords.latitude +
-  // "<br>Longitude: " + position.coords.longitude;
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
   initialLoadPosition.Lat=position.coords.latitude;
   initialLoadPosition.Lng = position.coords.longitude;
+  
 }
+
 getLocation();
+})();
