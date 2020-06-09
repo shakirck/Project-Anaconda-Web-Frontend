@@ -4,8 +4,8 @@ var currentLocation ;
 var loc;
 setTimeout(function(){
     
-  var geolatitude = initialLoadPosition.Lat+3;
-  var geolongitude = initialLoadPosition.Lng-1;
+  var geolatitude = initialLoadPosition.Lat;
+  var geolongitude = initialLoadPosition.Lng;
 
   var api_url = 'https://api.opencagedata.com/geocode/v1/json'
 
